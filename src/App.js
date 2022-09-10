@@ -5,7 +5,6 @@ import Box from './components/Box';
 import Number from './components/Number';
 import Score from './components/Score';
 import Choice from './components/Choice';
-import Footer from './components/Footer';
 
 function App() {
   sessionStorage.setItem("score", "0");
@@ -20,7 +19,6 @@ function App() {
     <Score></Score>
     <Choice></Choice>
     <Box></Box>
-    <Footer></Footer>
     </>
   );
 }
