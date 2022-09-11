@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gugame/static/css/main.feac86be.css",
+    "main.js": "/gugame/static/js/main.6f637da7.js",
+    "static/js/787.80f7d3a6.chunk.js": "/gugame/static/js/787.80f7d3a6.chunk.js",
+    "index.html": "/gugame/index.html",
+    "main.feac86be.css.map": "/gugame/static/css/main.feac86be.css.map",
+    "main.6f637da7.js.map": "/gugame/static/js/main.6f637da7.js.map",
+    "787.80f7d3a6.chunk.js.map": "/gugame/static/js/787.80f7d3a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feac86be.css",
+    "static/js/main.6f637da7.js"
+  ]
+}
