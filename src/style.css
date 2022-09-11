@@ -1,3 +1,4 @@
+/* Navbar Titles */
 #title
 {
   display: block;
@@ -8,32 +9,32 @@
   top: 50px;
   font-size: 50px;
 }
-
-
-
 #credit{
   font-size: 15px;
 }
+/*--------------------*/
 
+
+/* The hosts result */
 #result{
+  margin-top: 20px;
   text-align: center;
 }
+/*--------------------*/
+
 
 /* Score and Timer */
 #items{
   display : flex;
   text-align: center;
   justify-content: center;
-
 }
-
 #score{
   border-style: dashed;
   padding:20px;
   margin: 20px;
   width: 140px;
 }
-
 #time{
   border-style: dashed;
   padding:20px;
@@ -49,7 +50,6 @@
   text-align: center;
   margin : 30px;
 }
-
 #btn1, #btn2, #btn3{
   margin:10px;
   padding:20px;
@@ -59,66 +59,54 @@
 
 
 
-#dash{
-  display: block;
-  text-align: center;
-  border-style: groove;
-  margin-top: 5px;
-  width : 100%;
+/*Table generation*/
+* {
+  box-sizing: border-box;
 }
-
-
 .App {
   display:flex;
   width: 100%;
   height: 40vh;
   justify-content: center;
 }
-
-* {
-  box-sizing: border-box;
-}
-
 .Box{
   width: 60%; 
   margin: 10px; 
 }
-
 table  {
   padding-right: 30px;
   border: 2px solid black;
   width: 300px;
   height: 300px;
 }
-  
-td:hover{
+/* td:hover{
   background-color: black;
   color : white;
   border: 1px solid;
-}
-
-td:active{
+} */
+/* td:active{
   background-color: black;
   color : white;
-
-}
-
+} */
 th {
-  /* border-bottom: 1px solid black; */
   text-align: center;
   border: 1px solid;
   width : 50px;
 }
-  
 td {
   text-align: center;
   border: 1px solid;
   width : 50px;
 }
+/* .Box tr:focus{
+  background-color: red;
+  outline:0;
+} */
+.Box tr td:focus {
+  border: 2px inset gray;
+  background-color: black;
+  color:white;
+  outline:0;
 
-#footer {
-  /* position: fixed; */
-  bottom: 5px;
-  left:5px;
-  width: 100%;
 }
+/*--------------------*/

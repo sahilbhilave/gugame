@@ -2,7 +2,6 @@ import React from "react";
 
 export default function Score(){
 
-    
     return(
         <div id = "items">
             <b id="time">Time</b>
