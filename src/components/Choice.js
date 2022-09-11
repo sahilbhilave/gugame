@@ -59,7 +59,7 @@ export default function Choice() {
                     <Modal.Title>How To Play??</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>You must choose a number from the table that you believe will be called next in this guessing game in under <b>15 sec</b>. If the host's number matches yours, you will receive <b>10 points</b>.
-                    <br></br> <em>The table will always contain the number.</em>
+                    <br></br> <em>The table will always contain the number.</em> [Click inside the table to select a number]
                     <br></br><b>Red Color : Missed Number (0 points)<br></br>
                         Green Color : Correct Guess (10 points)
                         <br></br>Black Color : Your Number

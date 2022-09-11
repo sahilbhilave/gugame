@@ -18,6 +18,7 @@ function App() {
     <Score></Score>
     <Choice></Choice>
     <Box></Box>
+    <br></br>
     </>
   );
 }
